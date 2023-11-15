@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Documentation - The Power of Math</title>
+</head>
+
+<body>
+
+    <h1>Overview –</h1>
+    <p>"The Power of Math" is a comprehensive project that combines web hosting, mathematical operations, and database
+        storage using AWS services. The project is structured into distinct phases, each contributing to the overall
+        functionality and user experience.</p>
+
+    <h2>Application Architecture</h2>
+    <p>The diagram below provides a visual representation of the services used in this tutorial and how they are
+        connected. This application uses AWS Amplify, Amazon API Gateway, AWS Lambda, Amazon DynamoDB, and AWS Identity
+        and Access Management (IAM).</p>
+    <img src="https://d1.awsstatic.com/webteam/getting_started/GSRC%202020%20updates/full-stack%20amplify%20console%20arch%20diagram%20module%205.8d82fc2a7b47b307dfcefb6fa5f364e8c24426bc.png "width="624" height="267" alt="Architecture diagram showing how AWS services are used in this tutorial."></p>
+
+
+    <h2>AWS Services Used –</h2>
+    <ol>
+        <li><strong>AWS Amplify:</strong> Used for hosting the website.</li>
+        <li><strong>AWS Lambda:</strong> Executes the core mathematical operations.</li>
+        <li><strong>Amazon API Gateway:</strong> Facilitates the invocation of the Lambda function and enables CORS.</li>
+        <li><strong>Amazon Dynamo DB:</strong> Serves as the storage solution for the application.</li>
+        <li><strong>AWS Identity and Access Management (IAM):</strong> Manages access control and permissions.</li>
+    </ol>
+
+    <h3>1. Website Creation</h3>
+    <h4>1.1 Create a Web Page (INDEX.html)</h4>
+    <p>Create an HTML webpage that represents the content you want to host on the internet. Save it as INDEX.html.</p>
+
+    <h4>1.2 Host the Website Using AWS Amplify</h4>
+    <p>Utilize the Amplify AWS service to host your website.</p>
+    <p>Enter the App name and Environment name in Amplify.</p>
+    <p>Choose the HTML page (INDEX.html) you want to host.</p>
+
+    <h3>2. Perform Calculation</h3>
+    <h4>2.1 Create a Lambda Function</h4>
+    <p>Develop a Lambda function using Python scripting (Boto 3).</p>
+    <p>Test and verify that the code runs error-free.</p>
+
+    <h4>2.2 Invoke Lambda Function</h4>
+    <p>Create a new REST API.</p>
+    <p>Enable CORS (Cross-Origin Resource Sharing) to facilitate content fetching from other domains.</p>
+    <p>API Gateway provides tools for creating and documenting web APIs that route HTTP requests to Lambda functions. Also,
+        it’s a very common serverless integration on AWS.</p>
+
+    <h3>3. Storage with Dynamo DB</h3>
+    <h4>3.1 Create a Dynamo DB Database</h4>
+    <p>Establish a Dynamo DB Database to serve as storage.</p>
+    <p>Dynamo DB supports key-value and document data models, making it suitable for this application over other
+        Databases.</p>
+
+    <h4>3.2 Assign IAM Permissions</h4>
+    <p>Grant IAM permissions to the Lambda function for accessing Dynamo DB.</p>
+    <p>Assign an inline policy to the Lambda function with the following permissions:</p>
+    <pre>
+        {
+            "Version": "2012-10-17",
+            "Statement": [
+                {
+                    "Sid": "VisualEditor0",
+                    "Effect": "Allow",
+                    "Action": [
+                        "dynamodb:PutItem",
+                        "dynamodb:DeleteItem",
+                        "dynamodb:GetItem",
+                        "dynamodb:Scan",
+                        "dynamodb:Query",
+                        "dynamodb:UpdateItem"
+                    ],
+                    "Resource": "arn:aws:dynamodb:ap-south-1:233676577733:table/ThePowerOfMath"
+                }
+            ]
+        }
+    </pre>
+
+    <p>With the help of this IAM inline policy, the Lambda function will be able to write down the results of the
+        application every time it’s invoked.</p>
+
+    <h3>4. Testing the Application</h3>
+    <h4>4.1 Integration with API Gateway</h4>
+    <p>Include the API Gateway link in your code.</p>
+
+    <h4>4.2 Testing the App</h4>
+    <p>Open the Amplify website link.</p>
+    <p>Verify that the application runs successfully.</p>
+
+    <p>2 to the power 8 equals 256, which is displayed on the above image as a result of the application.</p>
+
+    <h2>Conclusion –</h2>
+    <p>"The Power of Math" showcases a robust and integrated solution for mathematical operations, hosting a website, and
+        managing data storage. The project's clear documentation and structured approach provide a comprehensive
+        overview, making it accessible for users to understand, deploy, and extend its capabilities.</p>
+
+</body>
+
+</html>
