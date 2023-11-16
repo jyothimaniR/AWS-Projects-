@@ -105,7 +105,7 @@ Go to ACM, request a public certificate, and enter the domain name.
 Complete the validation process to obtain the SSL/TLS certificate.
 
 
-![](C:\Users\Admin\OneDrive\Documents\GitHub\AWS-Projects-\Hosting Static Website in S3 using Cloud Front\Aspose.Words.ab546bbe-9bd5-40c7-a292-162326f252a2.001.png)
+![](https://drive.google.com/file/d/1CBBtcRlqrKEyrWn-Lq-66ihjOO1uIDeq/view?usp=drive_link)
 
 
 
@@ -144,11 +144,7 @@ Note:
 
 This step directs the domain to the CloudFront distribution.
 
-<<<<<<< HEAD
-![](C:\Users\Admin\OneDrive\Documents\GitHub\AWS-Projects-\Hosting Static Website in S3 using Cloud Front\Aspose.Words.ab546bbe-9bd5-40c7-a292-162326f252a2.002.png)
-=======
-![](Aspose.Words.ab546bbe-9bd5-40c7-a292-162326f252a2.002.png.png)
->>>>>>> 7346765b9cfb7a32b3dd08ce4247ed08edfa1903
+![](https://drive.google.com/file/d/1CBBtcRlqrKEyrWn-Lq-66ihjOO1uIDeq/view?usp=drive_link)
 
 
 
