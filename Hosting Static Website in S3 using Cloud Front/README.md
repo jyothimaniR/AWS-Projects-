@@ -104,7 +104,8 @@ Go to ACM, request a public certificate, and enter the domain name.
 
 Complete the validation process to obtain the SSL/TLS certificate.
 
-![](C:\Users\Admin\OneDrive\Documents\GitHub\AWS-Projects-\Hosting Static Website in S3 using Cloud Front\Pictures\Aspose.Words.ab546bbe-9bd5-40c7-a292-162326f252a2.001.png)
+
+![](Aspose.Words.ab546bbe-9bd5-40c7-a292-162326f252a2.001.png)
 
 
 
