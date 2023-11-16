@@ -145,7 +145,8 @@ Note:
 
 This step directs the domain to the CloudFront distribution.
 
-![]([https://drive.google.com/file/d/1CBBtcRlqrKEyrWn-Lq-66ihjOO1uIDeq/view?usp=drive_link](https://drive.google.com/file/d/1MbTxcIdgPNFUTYSsP76slCUHjyIlRZZQ/view?usp=sharing))
+
+![2](https://github.com/jyothimaniR/AWS-Projects-/assets/150769721/d7b3b677-124e-4107-a81d-fc04ea370dee)
 
 
 
