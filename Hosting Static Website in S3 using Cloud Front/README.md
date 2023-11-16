@@ -105,7 +105,7 @@ Go to ACM, request a public certificate, and enter the domain name.
 Complete the validation process to obtain the SSL/TLS certificate.
 
 
-![](https://github.com/jyothimaniR/AWS-Projects-/blob/main/Hosting%20Static%20Website%20in%20S3%20using%20Cloud%20Front/1.png)
+![1](https://github.com/jyothimaniR/AWS-Projects-/assets/150769721/e932ef02-731f-4eb0-a4e2-78dd638e2a1c)
 
 
 
