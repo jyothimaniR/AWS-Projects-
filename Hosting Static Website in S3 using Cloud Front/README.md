@@ -105,7 +105,8 @@ Go to ACM, request a public certificate, and enter the domain name.
 Complete the validation process to obtain the SSL/TLS certificate.
 
 
-![]([https://drive.google.com/file/d/1CBBtcRlqrKEyrWn-Lq-66ihjOO1uIDeq/view?usp=drive_link](https://drive.google.com/file/d/1CBBtcRlqrKEyrWn-Lq-66ihjOO1uIDeq/view?usp=sharing))
+![](1.png)
+
 
 
 
