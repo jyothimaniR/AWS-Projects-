@@ -2,6 +2,8 @@
 
 **Building a Chatbot using Amazon Lex –**
 
+
+
 **Architecture -** 
 
 ![image](https://github.com/jyothimaniR/AWS-Projects-/assets/150769721/d8a125c3-239c-432c-9811-ddb9fe137065)
