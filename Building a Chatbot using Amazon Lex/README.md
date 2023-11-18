@@ -4,7 +4,7 @@
 
 **Architecture -** 
 
-![](Aspose.Words.e3a85289-b4bb-4d9b-b6c9-f0cea5fea838.001.png)
+![image](https://github.com/jyothimaniR/AWS-Projects-/assets/150769721/d8a125c3-239c-432c-9811-ddb9fe137065)
 
 
 Step 1: Create a Custom Bot in Amazon Lex
@@ -23,7 +23,7 @@ Customize the bot's behavior by adding intents and sample utterances.
 
 Save the intent configurations.
 
-![](Aspose.Words.e3a85289-b4bb-4d9b-b6c9-f0cea5fea838.002.png)
+![image](https://github.com/jyothimaniR/AWS-Projects-/assets/150769721/72726cbe-7827-404f-a3b1-bd77ecf12682)
 
 
 
