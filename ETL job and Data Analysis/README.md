@@ -21,7 +21,7 @@ Architecture -
 
 
 
-Resources used – S3 source and destination buckets, Glue Crawler, Glue ETL Job, Lambda Function
+Resources used – S3 source and destination buckets, Glue Crawler, Glue ETL Job, Lambda Function, Athena and API Gateway.
 
 1\. S3 Bucket:
 
